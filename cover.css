@@ -47,6 +47,18 @@ ul.no-style {
   margin: 0 0 7px 0;
 }
 
+ul.in-line {
+  display: table;
+  table-layout: fixed;
+}
+ul.in-line li {
+  display: table-cell;
+  padding: 10px;
+}
+ul.in-line li a {
+    display: block;
+}
+
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 .site-wrapper {
   display: table;
