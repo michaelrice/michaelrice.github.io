@@ -1,362 +1,247 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8"/>
-    <title>Michael Rice -- Resume</title>
-    <link rel="stylesheet" href="cover.css"/>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Michael Rice — Resume</title>
+  <link rel="stylesheet" href="site.css"/>
 </head>
-<body>
-<div class="page">
-    <div class="preview-page">
-        <div class="container">
-            <div class="repository-with-sidebar repo-container with-full-navigation">
-                <div class="repository-content context-loader-container">
-                    <div id="readme" class="boxed-group flush clearfix announce instapaper_body md">
+<body class="resume">
 
-                        <div class="markdown-body entry-content">
-                            <p>
-                                Michael Rice<br>
-                                Jewett, Texas<br>
-                                210-764-9779<br>
-                                michael (at) michaelrice (dot) org
-                            </p>
+<header class="site-nav">
+  <span class="brand">Michael Rice</span>
+  <nav class="nav-links">
+    <a href="resume.html" aria-current="page">Resume</a>
+    <a href="https://michaelrice.github.io/blog/">Blog</a>
+    <a href="https://github.com/michaelrice">GitHub</a>
+    <a href="mailto:michael@michaelrice.org">Contact</a>
+  </nav>
+</header>
 
-                            <h3>
-                                <a name="user-content-summary" class="anchor" href="#summary"
-                                   aria-hidden="true"><span class="octicon octicon-link"></span></a>PROFESSIONAL SUMMARY</h3>
+<main class="resume-shell">
+  <article class="resume-content">
 
-                            <p>Principal Systems Engineer with 15+ years of experience spanning infrastructure automation,
-                                VMware ecosystems, cloud computing, and AI-powered developer tooling. Combines deep systems
-                                expertise with software engineering to architect and deliver enterprise-scale automation
-                                platforms, open source libraries, and LLM-driven engineering workflows. Active open source
-                                contributor since 2005 with a track record of building tools adopted by the global
-                                infrastructure community.</p>
+    <header class="resume-header">
+      <h1>Michael Rice</h1>
+      <p>Jewett, Texas &nbsp;·&nbsp; <a href="mailto:michael@michaelrice.org">michael@michaelrice.org</a> &nbsp;·&nbsp; 210-764-9779</p>
+      <button class="print-btn" onclick="window.print()">Print / Save PDF</button>
+    </header>
 
-                            <h3>
-                                <a name="user-content-relevant-experience" class="anchor" href="#relevant-experience"
-                                   aria-hidden="true"><span class="octicon octicon-link"></span></a>RELEVANT EXPERIENCE
-                            </h3>
-                            <h4>
-                                <a name="user-content-rackspace" class="anchor" href="#rackn" aria-hidden="true"><span class="octicon octicon-link"></span></a>RackN</h4>
-                            <p><strong>Principal Systems Engineer</strong>
-                                <em>June 2019 -- Present</em></p>
-                            <ul class='no-style'>
-                                <li>Architected and shipped multiple versions of the RackN VMware integration, including a VIB-free Python agent for ESXi that eliminated VMware partner certification requirements and significantly improved deployment portability and enterprise adoption</li>
-                                <li>Designed and implemented Infrastructure as Code (IaC) workflows and pipelines, enabling customers to build highly customizable and repeatable infrastructure at scale</li>
-                                <li>Developed and published the Digital Rebar Python library to PyPI, providing customers a supported, programmatic interface to the RackN platform and accelerating workflow automation</li>
-                                <li>Built and maintain internal MCP servers — including ZenDesk and vCenter integrations — enabling the support organization to resolve tickets faster and engineers to rapidly iterate on vSphere-based content</li>
-                                <li>Developed reusable Skills for Claude and other LLMs, creating AI-powered engineering workflows that improve team velocity and reduce repetitive operational overhead</li>
-                                <li>Established customer support infrastructure using ZenDesk and PagerDuty, replacing a fragmented email-only process and enabling 24/7 support coverage with efficient on-call rotation management</li>
-                                <li>Enhanced the GoLang-based CLI tool to enable customers to gather comprehensive system diagnostics with a single command, reducing support resolution time</li>
-                                <li>Created Nagios integration to automate product deployment and configuration</li>
-                                <li>Configured OKTA SSO and resolved SAML authentication issues for customers and internal teams</li>
-                            </ul>
-                            </h4>
-                            <h4>
-                                <a name="user-content-rackspace" class="anchor" href="#rackspace"
-                                   aria-hidden="true"><span class="octicon octicon-link"></span></a>Rackspace</h4>
-                            <p><strong>Software Developer -- OpenStack Private Cloud Solutions R&D</strong>
-                                <em>May 2015 -- Feb 2019</em></p>
-                            <ul class='no-style'>
-                                <li>Collaborated directly with customers to gather requirements and deliver custom solutions for OpenStack-powered private clouds</li>
-                                <li>Built custom solutions enabling customers to integrate external identity providers with Keystone Federation for SSO to OpenStack private clouds</li>
-                                <li>Developed custom Horizon dashboards, panels, and plugins to extend the OpenStack management interface</li>
-                                <li>Authored custom OpenStack Ansible roles and playbooks to extend Rackspace Private Cloud functionality</li>
-                                <li>Automated Ubuntu pre-configuration and Rackspace Private Cloud installation using Ansible playbooks</li>
-                            </ul>
+    <!-- Professional Summary -->
+    <section class="resume-section">
+      <h3>Professional Summary</h3>
+      <p>Principal Systems Engineer with 15+ years of experience spanning infrastructure automation,
+      VMware ecosystems, cloud computing, and AI-powered developer tooling. Combines deep systems
+      expertise with software engineering to architect and deliver enterprise-scale automation
+      platforms, open source libraries, and LLM-driven engineering workflows. Active open source
+      contributor since 2005 with a track record of building tools adopted by the global
+      infrastructure community.</p>
+    </section>
 
-                            <p><strong>Software Developer -- VMWare Practice</strong>
-                                <em>Aug 2012 - May 2015</em></p>
+    <!-- Experience -->
+    <section class="resume-section">
+      <h3>Relevant Experience</h3>
 
-                            <ul class='no-style'>
-                                <li>Collaborated with the development team to redesign the application stack for horizontal scalability using RabbitMQ</li>
-                                <li>Built HostSystem automation leveraging Grails, RabbitMQ, and SSH</li>
-                                <li>Maintained and enhanced a web-based operations tool used by the VMware practice</li>
-                                <li>Onboarded new developers, guiding them through the application stack and Git workflows</li>
-                                <li>Partnered with the scrum master to write actionable stories for junior developers</li>
-                                <li>Worked with the DevOps team to build Jenkins jobs for automated Grails application deployments</li>
-                                <li>Developed a Python application to collect billing data from vCloud Usage Meter on a scheduled basis</li>
-                                <li>Built an automated decommission process for HostSystems and VirtualMachines, eliminating a significant volume of non-value-add tickets from the Operations queue</li>
-                                <li>Partnered with product owners on next-generation VMware product design and automated provisioning tooling</li>
-                                <li>Served as subject matter expert for Git and the vSphere API</li>
-                            </ul>
-
-                            <p><strong>Virtualization Engineer</strong>
-                                <em>Sep 2011 - Aug 2012</em></p>
-
-                            <ul class='no-style'>
-                                <li>Installed and configured OpenStack using early versions of the Rackspace Private
-                                    Cloud
-
-                                    <ul class='no-style'>
-                                        <li>Worked with the development team to enhance the quality of the installer
-                                        </li>
-                                        <li>Debug django based installer when it failed</li>
-                                        <li>Trouble shoot puppet manifests that were part of the install process</li>
-                                    </ul>
-                                </li>
-                                <li>Created v1 of the current automated provisioning system used by the Managed
-                                    Virtualization powered by VMware product
-
-                                    <ul class='no-style'>
-                                        <li>Used Grails to create a series of applications that tied the CMDB into
-                                            vSphere using REST
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li>Created web application for VMware Operations team that reduced manual work</li>
-                                <li>Created automation to handle several large volume tickets that were deemed as Non
-                                    Value Add tickets
-                                </li>
-                                <li>Created web based DeClone tool using Grails, Perl, and the VMware VIX library</li>
-                            </ul>
-                            <h4>
-                                <a name="user-content-mcclelland--hine" class="anchor" href="#mcclelland--hine"
-                                   aria-hidden="true"><span class="octicon octicon-link"></span></a>McClelland &amp;
-                                Hine</h4>
-
-                            <p><strong>Systems Administrator</strong>
-                                <em>Jan 2007 - Aug 2011</em></p>
-
-                            <ul class='no-style'>
-                                <li>Replaced Cisco routers with OpenSource FreeBSD solution using quagga. Routing
-                                    protocols used: OSPF
-                                </li>
-                                <li>Replaced InterTel PBX with OpenSource solution using Asterisk and a custom version
-                                    of FreePBX
-                                </li>
-                                <li>Replaced legacy FreeBSD systems with updated Linux servers to provide company DNS,
-                                    and file servers using SAMBA with minimal down time
-                                </li>
-                                <li>Implemented SQUID for caching and web filtering</li>
-                                <li>Implemented a VMware solution to reduce server foot print in datacenters using
-                                    vSphere 3.5 and later updating to 4.1
-
-                                    <ul class='no-style'>
-                                        <li>This reduced physical server foot print from close to 100 servers between 3
-                                            locations to 9 physical servers
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li>Implemented various monitoring systems including Nagios (later updated to Icinga),
-                                    SmokePing, and Munin
-                                </li>
-                                <li>Responsible for keeping Falconstor IPstor SAN updated with latest patches and doing
-                                    SAN provisioning
-                                </li>
-                                <li>Replaced legacy firewalls with PFSense powered firewalls</li>
-                                <li>Implemented F5 Firepass VPN</li>
-                                <li>Provided exceptional end user support to 120+ employees on printers, faxes, Windows
-                                    desktop issues, and email
-                                </li>
-                                <li>Managed company DNS servers running BIND &amp; Email using Kerio</li>
-                                <li>Implemented puppet to allow for centralized configuration management</li>
-                                <li>Created various automated tools using PERL, PHP, and Python that integrated with
-                                    VMware and Asterisk
-                                </li>
-                            </ul>
-
-                            <h3>
-                                <a name="user-content-opensource-projects" class="anchor" href="#opensource-projects"
-                                   aria-hidden="true"><span class="octicon octicon-link"></span></a>OPENSOURCE PROJECTS
-                            </h3>
-
-                            <p>Very active member of the OpenSource community since 2005.</p>
-                            <ul class='no-style'>
-                                <li>
-                                    <strong>simdeplower</strong> -- <em>Python tool to deploy a vCenter Server Appliance
-                                    into Fusion or Workstation</em>
-
-                                    <ul class='in-line'>
-                                        <li><a href="https://github.com/virtdevninja/simdeplower">Source</a></li>
-                                        <li><a href="https://pypi.python.org/pypi/simdeplower">Releases</a></li>
-                                        <li>Role: Creator</li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <strong>Thunderhead</strong> -- <em>Python SDK for VMware vCloud Usage Meter</em>
-
-                                    <ul class='in-line'>
-                                        <li><a href="https://github.com/michaelrice/thunderhead">Source</a></li>
-                                        <li><a href="https://pypi.python.org/pypi/thunderhead">Releases</a></li>
-                                        <li>Role: Creator</li>
-                                    </ul>
-                                </li>
-
-                                <li>
-                                    <strong>YAVIJAVA</strong> -- <em>Fork of VIJAVA the Java bindings for vSphere</em>
-
-                                    <ul class='in-line'>
-                                        <li><a href="https://github.com/yavijava/yavijava">Source</a></li>
-                                        <li><a href="https://github.com/yavijava/yavijava/releases">Releases</a></li>
-                                        <li>Role: Creator</li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <strong>pyVmomi</strong> -- <em>Python SDK for VMware vSphere</em>
-
-                                    <ul class='in-line'>
-                                        <li><a href="https://github.com/vmware/pyvmomi">Source</a></li>
-                                        <li><a href="https://pypi.python.org/pypi/pyvmomi">Releases</a></li>
-                                        <li>Role: Active Contributor, RPM Package Maintainer</li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <strong>pyVmomi-community-samples</strong> -- <em>Python scripts to demonstrate how
-                                    to use pyVmomi</em>
-
-                                    <ul class='in-line'>
-                                        <li><a href="https://github.com/vmware/pyvmomi-community-samples">Source</a>
-                                        </li>
-                                        <li>Role: Active Contributor</li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <strong>grails-weakSSL</strong> -- <em>Grails plugin to deliberately break SSL for
-                                    you by accepting any SSL certificate</em>
-
-                                    <ul class='in-line'>
-                                        <li><a href="https://github.com/michaelrice/WeakSSL">Source</a></li>
-                                        <li><a href="http://grails.org/plugin/weak-ssl">Releases</a></li>
-                                        <li>Role: Current Maintainer</li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <strong>grails-jsch-ssh2</strong> -- <em>Grails plugin that provides ssh client
-                                    using jsch-ssh2 library</em>
-
-                                    <ul class='in-line'>
-                                        <li><a href="https://github.com/michaelrice/grails-jsch-ssh2">Source</a></li>
-                                        <li><a href="http://grails.org/plugin/jsch-ssh2">Releases</a></li>
-                                        <li>Role: Creator</li>
-                                    </ul>
-                                </li>
-                            </ul>
-
-                            <h3>
-                                <a name="user-content-public-speaking" class="anchor" href="#public-speaking"
-                                   aria-hidden="true"><span class="octicon octicon-link"></span></a>PUBLIC SPEAKING</h3>
-
-                            <ul class='no-style'>
-                                <li>
-                                    <strong>vCenter Simulator For Functional Testing #1</strong> <em>Sept 2015</em> --
-                                    VMWorld US 2015
-                                    <ul class='in-line'>
-                                        <li><a href="https://www.youtube.com/watch?v=M_ebR-Dw4HE">Video</a></li>
-                                        <li>
-                                            <a href="http://www.slideshare.net/MichaelRice10/stop-testing-scripts-in-production-meet-vcenter-simulator">Slide
-                                                Deck</a></li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <strong>Quick Introduction To pyVmomi</strong> <em>Sept 2015</em> -- VMWorld US 2015
-                                    <ul class='in-line'>
-                                        <li><a href="https://www.youtube.com/watch?v=TRvssIJH5WI">Video</a></li>
-                                        <li>
-                                            <a href="http://www.slideshare.net/MichaelRice10/quick-introduction-to-pyvmomi">Slide
-                                                Deck</a></li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <strong>YAVIJAVA An Alternative Java SDK For vSphere</strong> <em>Sept 2015</em> --
-                                    VMWorld US 2015
-                                    <ul class='in-line'>
-                                        <li><a href="https://www.youtube.com/watch?v=PJjwP3u71sQ">Video</a></li>
-                                        <li>
-                                            <a href="http://www.slideshare.net/MichaelRice10/yavijava-an-alternative-java-sdk-for-vsphere">Slide
-                                                Deck</a></li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <strong>Quick Deep Dive Into vCenter Simulator Configuration</strong> <em>Sept
-                                    2015</em> -- VMWorld 2015
-                                    <ul class='in-line'>
-                                        <li><a href="https://www.youtube.com/watch?v=N1xqOSohf4g">Video</a></li>
-                                        <li>
-                                            <a href="http://www.slideshare.net/MichaelRice10/quick-deep-dive-into-vcenter-simulator-configuration">Slide
-                                                Deck</a></li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <strong>Introduction to vSphere APIs Using pyVmomi</strong> <em>March 2015</em> --
-                                    San Antonio VMWare User Group
-                                    <ul class='in-line'>
-                                        <li>
-                                            <a href="http://www.slideshare.net/MichaelRice10/introduction-to-vsphere-apis-using-pyvmomi">Slide
-                                                Deck</a></li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <strong>Paths to VOIP</strong> <em>March 2008</em> -- American Association of
-                                    Managing General Agents Automation Conference
-                                    <ul class='in-line'>
-                                        <li><a href="/VOIP_CaseStudy.pdf">Case Study</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-
-                            <h3>
-                                <a name="user-content-technical-skills" class="anchor" href="#technical-skills"
-                                   aria-hidden="true"><span class="octicon octicon-link"></span></a>TECHNICAL SKILLS</h3>
-
-                            <ul class='no-style'>
-                                <li>Operating Systems: Red Hat, CentOS, Debian, Ubuntu, FreeBSD, macOS, Windows</li>
-                                <li>VMware: vSphere, ESX, ESXi, Fusion, Workstation, pyVmomi, VIJAVA, YAVIJAVA,
-                                    vCloud Usage Meter, vCloud Director
-                                </li>
-                                <li>Programming Languages: Python, Go, Groovy, Java, Bash, Perl, PHP</li>
-                                <li>AI / LLM: Claude, Model Context Protocol (MCP), LLM Skill Development, Prompt Engineering</li>
-                                <li>Web Frameworks: Flask, Grails, Django</li>
-                                <li>Databases: MySQL, MariaDB, SQLite</li>
-                                <li>Containers: Docker</li>
-                                <li>SCM: Git, GitLab, GitHub, GitHub Enterprise</li>
-                                <li>Monitoring: Nagios, Icinga, Munin, SmokePing</li>
-                                <li>Config Management: Ansible, Chef, Puppet, SaltStack</li>
-                                <li>Other: Jenkins, Vagrant, Jira, Apache httpd, Apache Tomcat, BIND, PagerDuty,
-                                    ZenDesk, OKTA, SAML, vcrpy, OmniGraffle
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-
-            </div>
+      <div class="job">
+        <div class="job-header">
+          <span class="job-company">RackN</span>
+          <span class="job-dates">June 2019 – Present</span>
         </div>
-    </div>
-    <div>&nbsp;</div>
-</div>
-<script>
-    function showCanonicalImages() {
-        var images = document.getElementsByTagName('img');
-        if (!images) {
-            return;
-        }
-        for (var index = 0; index < images.length; index++) {
-            var image = images[index];
-            if (image.getAttribute('data-canonical-src')) {
-                image.src = image.getAttribute('data-canonical-src');
-            }
-        }
-    }
+        <div class="job-title">Principal Systems Engineer</div>
+        <ul>
+          <li>Architected and shipped multiple versions of the RackN VMware integration, including a VIB-free Python agent for ESXi that eliminated VMware partner certification requirements and significantly improved deployment portability and enterprise adoption</li>
+          <li>Designed and implemented Infrastructure as Code (IaC) workflows and pipelines, enabling customers to build highly customizable and repeatable infrastructure at scale</li>
+          <li>Developed and published the Digital Rebar Python library to PyPI, providing customers a supported, programmatic interface to the RackN platform and accelerating workflow automation</li>
+          <li>Built and maintain internal MCP servers — including ZenDesk and vCenter integrations — enabling the support organization to resolve tickets faster and engineers to rapidly iterate on vSphere-based content</li>
+          <li>Developed reusable Skills for Claude and other LLMs, creating AI-powered engineering workflows that improve team velocity and reduce repetitive operational overhead</li>
+          <li>Established customer support infrastructure using ZenDesk and PagerDuty, replacing a fragmented email-only process and enabling 24/7 support coverage with efficient on-call rotation management</li>
+          <li>Enhanced the GoLang-based CLI tool to enable customers to gather comprehensive system diagnostics with a single command, reducing support resolution time</li>
+          <li>Created Nagios integration to automate product deployment and configuration</li>
+          <li>Configured OKTA SSO and resolved SAML authentication issues for customers and internal teams</li>
+        </ul>
+      </div>
 
-    function scrollToHash() {
-        if (location.hash && !document.querySelector(":target")) {
-            var elements = document.getElementsByName('user-content-' + location.hash.slice(1));
-            if (elements.length > 0) {
-                elements[elements.length - 1].scrollIntoView();
-            }
-        }
-    }
+      <div class="job">
+        <div class="job-header">
+          <span class="job-company">Rackspace</span>
+          <span class="job-dates">May 2015 – Feb 2019</span>
+        </div>
+        <div class="job-title">Software Developer — OpenStack Private Cloud Solutions R&amp;D</div>
+        <ul>
+          <li>Collaborated directly with customers to gather requirements and deliver custom solutions for OpenStack-powered private clouds</li>
+          <li>Built custom solutions enabling customers to integrate external identity providers with Keystone Federation for SSO to OpenStack private clouds</li>
+          <li>Developed custom Horizon dashboards, panels, and plugins to extend the OpenStack management interface</li>
+          <li>Authored custom OpenStack Ansible roles and playbooks to extend Rackspace Private Cloud functionality</li>
+          <li>Automated Ubuntu pre-configuration and Rackspace Private Cloud installation using Ansible playbooks</li>
+        </ul>
 
-    window.onhashchange = function () {
-        scrollToHash();
-    }
-    window.onload = function () {
-        scrollToHash();
-    }
-    showCanonicalImages();
-</script>
-<a href="resume-print.html">Printable Copy</a>
+        <div class="job-title" style="margin-top:1rem;">Software Developer — VMware Practice</div>
+        <p style="color:var(--color-muted);font-size:.875rem;margin:.25rem 0 .5rem;">Aug 2012 – May 2015</p>
+        <ul>
+          <li>Collaborated with the development team to redesign the application stack for horizontal scalability using RabbitMQ</li>
+          <li>Built HostSystem automation leveraging Grails, RabbitMQ, and SSH</li>
+          <li>Maintained and enhanced a web-based operations tool used by the VMware practice</li>
+          <li>Onboarded new developers, guiding them through the application stack and Git workflows</li>
+          <li>Worked with the DevOps team to build Jenkins jobs for automated Grails application deployments</li>
+          <li>Developed a Python application to collect billing data from vCloud Usage Meter on a scheduled basis</li>
+          <li>Built an automated decommission process for HostSystems and VirtualMachines, eliminating a significant volume of non-value-add tickets from the Operations queue</li>
+          <li>Served as subject matter expert for Git and the vSphere API</li>
+        </ul>
+
+        <div class="job-title" style="margin-top:1rem;">Virtualization Engineer</div>
+        <p style="color:var(--color-muted);font-size:.875rem;margin:.25rem 0 .5rem;">Sep 2011 – Aug 2012</p>
+        <ul>
+          <li>Installed and configured OpenStack using early versions of the Rackspace Private Cloud; worked with the development team to improve the installer and troubleshoot Puppet manifests</li>
+          <li>Created v1 of the automated provisioning system for the Managed Virtualization powered by VMware product, using Grails to integrate the CMDB with vSphere via REST</li>
+          <li>Created a web application for the VMware Operations team that reduced manual work</li>
+          <li>Built a web-based DeClone tool using Grails, Perl, and the VMware VIX library</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div class="job-header">
+          <span class="job-company">McClelland &amp; Hine</span>
+          <span class="job-dates">Jan 2007 – Aug 2011</span>
+        </div>
+        <div class="job-title">Systems Administrator</div>
+        <ul>
+          <li>Replaced Cisco routers with an open source FreeBSD/Quagga solution using OSPF routing</li>
+          <li>Replaced InterTel PBX with an open source Asterisk/FreePBX solution</li>
+          <li>Implemented a VMware solution that reduced the physical server footprint from ~100 servers across 3 locations to 9 physical servers using vSphere 3.5, later upgraded to 4.1</li>
+          <li>Implemented monitoring systems including Nagios/Icinga, SmokePing, and Munin</li>
+          <li>Managed Falconstor IPstor SAN, DNS (BIND), and email (Kerio) servers</li>
+          <li>Implemented PFSense firewalls, F5 Firepass VPN, SQUID caching and web filtering, and Puppet for centralized configuration management</li>
+          <li>Created automated tools in Perl, PHP, and Python integrating with VMware and Asterisk</li>
+          <li>Provided end user support to 120+ employees across printers, Windows desktops, and email</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Open Source Projects -->
+    <section class="resume-section">
+      <h3>Open Source Projects</h3>
+      <p>Active open source contributor since 2005.</p>
+
+      <div class="project-row">
+        <div class="project-name">zendesk-mcp</div>
+        <div class="project-desc">A fully featured MCP server for Zendesk — search tickets, post replies, apply macros, and more from Claude Code or any MCP client.</div>
+        <div class="project-meta"><a href="https://github.com/michaelrice/zendesk-mcp">Source</a> &nbsp;·&nbsp; Role: Creator</div>
+      </div>
+
+      <div class="project-row">
+        <div class="project-name">YAVIJAVA</div>
+        <div class="project-desc">Fork of VIJAVA — Java bindings for the VMware vSphere API. Updated with vSphere 9 support.</div>
+        <div class="project-meta"><a href="https://github.com/yavijava/yavijava">Source</a> &nbsp;·&nbsp; <a href="https://github.com/yavijava/yavijava/releases">Releases</a> &nbsp;·&nbsp; Role: Creator</div>
+      </div>
+
+      <div class="project-row">
+        <div class="project-name">simdeplower</div>
+        <div class="project-desc">Python tool to deploy a vCenter Server Appliance into VMware Fusion or Workstation.</div>
+        <div class="project-meta"><a href="https://github.com/virtdevninja/simdeplower">Source</a> &nbsp;·&nbsp; <a href="https://pypi.python.org/pypi/simdeplower">Releases</a> &nbsp;·&nbsp; Role: Creator</div>
+      </div>
+
+      <div class="project-row">
+        <div class="project-name">Thunderhead</div>
+        <div class="project-desc">Python SDK for VMware vCloud Usage Meter.</div>
+        <div class="project-meta"><a href="https://github.com/michaelrice/thunderhead">Source</a> &nbsp;·&nbsp; <a href="https://pypi.python.org/pypi/thunderhead">Releases</a> &nbsp;·&nbsp; Role: Creator</div>
+      </div>
+
+      <div class="project-row">
+        <div class="project-name">pyVmomi</div>
+        <div class="project-desc">Python SDK for VMware vSphere.</div>
+        <div class="project-meta"><a href="https://github.com/vmware/pyvmomi">Source</a> &nbsp;·&nbsp; Role: Active Contributor, RPM Package Maintainer</div>
+      </div>
+
+      <div class="project-row">
+        <div class="project-name">pyVmomi-community-samples</div>
+        <div class="project-desc">Python scripts demonstrating the pyVmomi API.</div>
+        <div class="project-meta"><a href="https://github.com/vmware/pyvmomi-community-samples">Source</a> &nbsp;·&nbsp; Role: Active Contributor</div>
+      </div>
+
+      <div class="project-row">
+        <div class="project-name">grails-weakSSL</div>
+        <div class="project-desc">Grails plugin that accepts any SSL certificate (for dev/test environments).</div>
+        <div class="project-meta"><a href="https://github.com/michaelrice/WeakSSL">Source</a> &nbsp;·&nbsp; Role: Maintainer</div>
+      </div>
+
+      <div class="project-row">
+        <div class="project-name">grails-jsch-ssh2</div>
+        <div class="project-desc">Grails plugin providing an SSH client via the JSch library.</div>
+        <div class="project-meta"><a href="https://github.com/michaelrice/grails-jsch-ssh2">Source</a> &nbsp;·&nbsp; Role: Creator</div>
+      </div>
+    </section>
+
+    <!-- Public Speaking -->
+    <section class="resume-section">
+      <h3>Public Speaking</h3>
+
+      <div class="talk">
+        <div class="talk-title">vCenter Simulator For Functional Testing <span class="talk-event">VMworld US 2015 &mdash; Sept 2015</span></div>
+        <div class="talk-links">
+          <a href="https://www.youtube.com/watch?v=M_ebR-Dw4HE">Video</a>
+          <a href="http://www.slideshare.net/MichaelRice10/stop-testing-scripts-in-production-meet-vcenter-simulator">Slides</a>
+        </div>
+      </div>
+
+      <div class="talk">
+        <div class="talk-title">Quick Introduction To pyVmomi <span class="talk-event">VMworld US 2015 &mdash; Sept 2015</span></div>
+        <div class="talk-links">
+          <a href="https://www.youtube.com/watch?v=TRvssIJH5WI">Video</a>
+          <a href="http://www.slideshare.net/MichaelRice10/quick-introduction-to-pyvmomi">Slides</a>
+        </div>
+      </div>
+
+      <div class="talk">
+        <div class="talk-title">YAVIJAVA An Alternative Java SDK For vSphere <span class="talk-event">VMworld US 2015 &mdash; Sept 2015</span></div>
+        <div class="talk-links">
+          <a href="https://www.youtube.com/watch?v=PJjwP3u71sQ">Video</a>
+          <a href="http://www.slideshare.net/MichaelRice10/yavijava-an-alternative-java-sdk-for-vsphere">Slides</a>
+        </div>
+      </div>
+
+      <div class="talk">
+        <div class="talk-title">Quick Deep Dive Into vCenter Simulator Configuration <span class="talk-event">VMworld 2015 &mdash; Sept 2015</span></div>
+        <div class="talk-links">
+          <a href="https://www.youtube.com/watch?v=N1xqOSohf4g">Video</a>
+          <a href="http://www.slideshare.net/MichaelRice10/quick-deep-dive-into-vcenter-simulator-configuration">Slides</a>
+        </div>
+      </div>
+
+      <div class="talk">
+        <div class="talk-title">Introduction to vSphere APIs Using pyVmomi <span class="talk-event">San Antonio VMware User Group &mdash; March 2015</span></div>
+        <div class="talk-links">
+          <a href="http://www.slideshare.net/MichaelRice10/introduction-to-vsphere-apis-using-pyvmomi">Slides</a>
+        </div>
+      </div>
+
+      <div class="talk">
+        <div class="talk-title">Paths to VOIP <span class="talk-event">AAMGA Automation Conference &mdash; March 2008</span></div>
+        <div class="talk-links">
+          <a href="/VOIP_CaseStudy.pdf">Case Study</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Technical Skills -->
+    <section class="resume-section">
+      <h3>Technical Skills</h3>
+      <ul class="skills-list">
+        <li><strong>Operating Systems</strong> Red Hat, CentOS, Debian, Ubuntu, FreeBSD, macOS, Windows</li>
+        <li><strong>VMware</strong> vSphere, ESX, ESXi, Fusion, Workstation, pyVmomi, VIJAVA, YAVIJAVA, vCloud Usage Meter, vCloud Director</li>
+        <li><strong>Programming Languages</strong> Python, Go, Groovy, Java, Bash, Perl, PHP</li>
+        <li><strong>AI / LLM</strong> Claude, Model Context Protocol (MCP), LLM Skill Development, Prompt Engineering</li>
+        <li><strong>Web Frameworks</strong> Flask, Grails, Django</li>
+        <li><strong>Databases</strong> MySQL, MariaDB, SQLite</li>
+        <li><strong>Containers</strong> Docker</li>
+        <li><strong>SCM</strong> Git, GitLab, GitHub, GitHub Enterprise</li>
+        <li><strong>Monitoring</strong> Nagios, Icinga, Munin, SmokePing</li>
+        <li><strong>Config Management</strong> Ansible, Chef, Puppet, SaltStack</li>
+        <li><strong>Other</strong> Jenkins, Vagrant, Jira, Apache httpd, Apache Tomcat, BIND, PagerDuty, ZenDesk, OKTA, SAML, vcrpy, OmniGraffle</li>
+      </ul>
+    </section>
+
+  </article>
+</main>
+
 </body>
 </html>

@@ -478,6 +478,29 @@ body.resume .site-nav {
   color: #111827;
 }
 
+.talk-event {
+  font-weight: 400;
+  color: #6b7280;
+  font-size: 0.875rem;
+  margin-left: 8px;
+}
+
+.project-meta {
+  font-size: 0.85rem;
+  color: #6b7280;
+  margin-top: 4px;
+}
+
+.project-meta a {
+  color: #0e7490;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.project-meta a:hover {
+  text-decoration: underline;
+}
+
 .talk-links {
   display: flex;
   flex-wrap: wrap;
